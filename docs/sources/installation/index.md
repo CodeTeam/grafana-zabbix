@@ -27,7 +27,7 @@ Read more about installing plugins in [Grafana docs](http://docs.grafana.org/plu
 Just clone plugin repo into your plugin directory
 ```sh
 cd /var/lib/grafana/plugins
-git clone https://github.com/alexanderzobnin/grafana-zabbix
+git clone https://github.com/CodeTeam/grafana-zabbix
 ```
 
 Then restart grafana server.
@@ -43,13 +43,13 @@ service grafana-server restart
 ```
 
 ## From special repo
-**WARNING!** This way is deprecated. Now main repo (https://github.com/alexanderzobnin/grafana-zabbix) contains builded plugin.  
-You can use [grafana-zabbix-app](https://github.com/alexanderzobnin/grafana-zabbix-app) repo,
+**WARNING!** This way is deprecated. Now main repo (https://github.com/CodeTeam/grafana-zabbix) contains builded plugin.  
+You can use [grafana-zabbix-app](https://github.com/CodeTeam/grafana-zabbix-app) repo,
 which contains latest builded version of plugin.
 
 ```sh
 cd /var/lib/grafana/plugins
-git clone https://github.com/alexanderzobnin/grafana-zabbix-app
+git clone https://github.com/CodeTeam/grafana-zabbix-app
 ```
 
 Then restart grafana server.
@@ -66,7 +66,7 @@ You need NodeJS, npm and Grunt for building plugin from sources. Read more about
 in [Grafana docs](http://docs.grafana.org/project/building_from_source/).
 
 ```sh
-git clone https://github.com/alexanderzobnin/grafana-zabbix.git
+git clone https://github.com/CodeTeam/grafana-zabbix.git
 cd grafana-zabbix
 npm install
 npm install -g grunt-cli

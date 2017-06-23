@@ -84,7 +84,7 @@ System.register(['lodash', 'jquery', 'moment', 'app/plugins/sdk', '../datasource
       /**
        * Grafana-Zabbix
        * Zabbix plugin for Grafana.
-       * http://github.com/alexanderzobnin/grafana-zabbix
+       * http://github.com/CodeTeam/grafana-zabbix
        *
        * Trigger panel.
        * This feature sponsored by CORE IT

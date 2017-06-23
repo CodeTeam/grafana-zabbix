@@ -15,9 +15,9 @@
       "large": "img/zabbix_app_logo.svg"
     },
     "links": [
-      {"name": "GitHub", "url": "https://github.com/alexanderzobnin/grafana-zabbix"},
+      {"name": "GitHub", "url": "https://github.com/CodeTeam/grafana-zabbix"},
       {"name": "Docs", "url": "http://docs.grafana-zabbix.org"},
-      {"name": "License", "url": "https://github.com/alexanderzobnin/grafana-zabbix/blob/master/LICENSE"}
+      {"name": "License", "url": "https://github.com/CodeTeam/grafana-zabbix/blob/master/LICENSE"}
     ],
     "screenshots": [
       {"name": "Showcase", "path": "img/screenshot-showcase.png"},

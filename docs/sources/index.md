@@ -34,5 +34,5 @@ Triggers panel was sponsored by [Core IT Project](http://coreit.fr/)).
 
 By utilizing this software, you agree to the terms of the included license. Grafana-Zabbix plugin is
 licensed under the Apache 2.0 agreement. See
-[LICENSE](https://github.com/alexanderzobnin/grafana-zabbix/blob/master/LICENSE) for the full
+[LICENSE](https://github.com/CodeTeam/grafana-zabbix/blob/master/LICENSE) for the full
 license terms.

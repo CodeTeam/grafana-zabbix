@@ -1,6 +1,6 @@
 # Zabbix plugin for Grafana
 
-[![GitHub version](https://badge.fury.io/gh/alexanderzobnin%2Fgrafana-zabbix.svg)](https://github.com/alexanderzobnin/grafana-zabbix/releases)
+[![GitHub version](https://badge.fury.io/gh/alexanderzobnin%2Fgrafana-zabbix.svg)](https://github.com/CodeTeam/grafana-zabbix/releases)
 [![Docs](https://img.shields.io/badge/docs-latest-red.svg?style=flat)](http://docs.grafana-zabbix.org)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/alexanderzobnin)
 [![Donate](https://img.shields.io/badge/donate-paypal-2c9eda.svg?style=flat&colorA=0b3684)](https://paypal.me/alexanderzobnin/10)
@@ -35,7 +35,7 @@ Or see more installation options in [docs](http://docs.grafana-zabbix.org/instal
   - [Available functions](http://docs.grafana-zabbix.org/reference/functions/)
 
 ## Community Resources, Feedback, and Support
-  - Found a bug? Want a new feature? Feel free to open an [issue](https://github.com/alexanderzobnin/grafana-zabbix/issues/new).
+  - Found a bug? Want a new feature? Feel free to open an [issue](https://github.com/CodeTeam/grafana-zabbix/issues/new).
   - Have a question? You also can open issue, but for questions, it would be better to use [Grafana Community](https://community.grafana.com/) portal.
   - Need additional support? Contact me for details [alexanderzobnin@gmail.com](mailto:alexanderzobnin@gmail.com)
 

@@ -5,7 +5,7 @@ To build this docs on your computer you need [git-lfs](https://git-lfs.github.co
 
 Clone repo
 ```
-git clone https://github.com/alexanderzobnin/grafana-zabbix
+git clone https://github.com/CodeTeam/grafana-zabbix
 ```
 Check images in `docs/sources/img/`. If this folder is empty, run 
 ```
