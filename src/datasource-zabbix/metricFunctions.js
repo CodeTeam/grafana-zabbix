@@ -50,6 +50,16 @@ addFuncDef({
   defaultParams: [],
 });
 
+addFuncDef({
+  name: 'filter',
+  category: 'Transform',
+  params: [
+    { name: 'regexp', type: 'string' },
+  ],
+  defaultParams: [".*"],
+});
+
+
 // Aggregate
 
 addFuncDef({

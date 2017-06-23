@@ -103,6 +103,15 @@ System.register(['lodash', 'jquery'], function (_export, _context) {
         defaultParams: []
       });
 
+      addFuncDef({
+        name: 'filter',
+        category: 'Transform',
+        params: [
+          { name: 'regexp', type: 'string' },
+        ],
+        defaultParams: [".*"],
+      });
+      
       // Aggregate
 
       addFuncDef({

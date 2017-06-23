@@ -212,6 +212,18 @@ function delta(datapoints) {
   return newSeries;
 }
 
+function filter(regexp, datapoints) {
+  let newSeries = [];
+  var reg = new RegExp(regexp)
+  for (var i = 0; i < datapoints.length; i++) {
+    var value = "" + datapoints[i][0];
+    if (reg.test(value)) {
+      newSeries.push(datapoints[i]);
+    }
+  }
+  return newSeries;
+}
+
 function groupByWrapper(interval, groupFunc, datapoints) {
   var groupByCallback = aggregationFunctions[groupFunc];
   return groupBy(interval, groupByCallback, datapoints);
@@ -319,6 +331,7 @@ let metricFunctions = {
   sumSeries: sumSeries,
   top: _.partial(limit, 'top'),
   bottom: _.partial(limit, 'bottom'),
+  filter: filter,
   timeShift: timeShift,
   setAlias: setAlias,
   setAliasByRegex: setAliasByRegex,
